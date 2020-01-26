@@ -1,0 +1,43 @@
+{
+  "name": "@webboot/keys",
+  "version": "0.0.1-alpha.0",
+  "author": "Wizards & Witches @ Webboot DAO",
+  "homepage": "https://webboot.org",
+  "license": "AGPL-3.0",
+  "description": "@webboot/keys. cryptographic public keys, installable via npm.",
+  "main": "src/index.mjs",
+  "private": true,
+  "scripts": {
+    "start": "t -p",
+    "test": "t",
+    "format": "f -w"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=13.5.0"
+  },
+  "engineString": true,
+  "devDependencies": {
+    "@magic/format": "0.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webboot/keys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webboot/keys/issues"
+  },
+  "keywords": [
+    "webboot",
+    "public",
+    "keys"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
