@@ -6,7 +6,6 @@
   "license": "AGPL-3.0",
   "description": "@webboot/keys. cryptographic public keys, installable via npm.",
   "main": "src/index.mjs",
-  "private": true,
   "scripts": {
     "start": "t -p",
     "test": "t",
@@ -18,7 +17,7 @@
   "engines": {
     "node": ">=13.5.0"
   },
-  "engineString": true,
+  "engineStrict": true,
   "devDependencies": {
     "@magic/format": "0.0.7",
     "@magic/test": "0.1.33"
