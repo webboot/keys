@@ -11,6 +11,14 @@ const pubKeyFileString = fs.readFileSync(keyPath, 'utf8')
 
 export default [
   { fn: pubKeyFileString, expect: is.len.lt(10), info: 'webboot.asc is not empty' },
-  { fn: pubKeyFileString.trim(), expect: armored.trim(), info: 'webboot.asc equals armored js export' },
-  { fn: key.fingerprint, expect: fingerprint, info: 'key.fingerprint and export fingerprint match' },
+  {
+    fn: pubKeyFileString.trim(),
+    expect: armored.trim(),
+    info: 'webboot.asc equals armored js export',
+  },
+  {
+    fn: key.fingerprint,
+    expect: fingerprint,
+    info: 'key.fingerprint and export fingerprint match',
+  },
 ]
