@@ -19,8 +19,8 @@
   },
   "engineStrict": true,
   "devDependencies": {
-    "@magic/format": "0.0.7",
-    "@magic/test": "0.1.35"
+    "@magic/format": "0.0.11",
+    "@magic/test": "0.1.48"
   },
   "repository": {
     "type": "git",
